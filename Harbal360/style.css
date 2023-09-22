@@ -1,0 +1,146 @@
+
+
+/* Full-width input fields */
+
+
+/* Set a style for all buttons */
+button {
+  background-color: #44aae6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+/* Center the image and position the close button */
+.navbar{
+  border-bottom: 1px solid #000;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ 
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #chart{
+    display: none;
+  }
+  .item{
+    display: none;
+  }
+  #har{
+    display: none;
+  }
+  .wrapper .sidebar ul li a{
+ 
+  }
+
+}
+
+
+
+
+
+
+
+
+.wrapper .sidebar ul li a{
+  display: block;
+  padding: 4px ;
+  padding-bottom: 50px;
+  font-size: 16px;
+  position: relative;
+ text-decoration: none;
+ list-style-type: none;
+ border-right: 1px solid #000;
+}
+ul{
+  list-style: none;
+}
+.wrapper .sidebar ul li a .icon{
+  color: #dee4ec;
+  width: 0px;
+  display: inline-block;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+
+    background:white;
+    border-right: 1px solid rgb(5, 68, 104);
+}
+
+.wrapper .sidebar ul li a:hover{
+  text-decoration: chocolate;
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon{
+    color: #0a97dd;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before{
+    display: block;
+}
+/* table coding */
+
+.table-box{
+  width: 100%;
+  padding: 30px;
+}
+.table-box table{
+  width: 100%;
+  
+ 
+}
+.table-box table tr th{
+  border-right: 1px solid #dee4ec;
+  padding: 30px 3px 3px ;
+  font-family: Verdana;
+  font-size: 20px;
+  border-bottom: 1px solid #dee4ec;
+  border-top: 1px solid #dee4ec;
+  border-left: 1px solid #dee4ec;
+  background-color: #44aae6;
+  color: aliceblue;
+}
+.table-box table tr td{
+  border-right: 1px solid #dee4ec;
+  padding: 20px 3px 3px ;
+  font-family: Verdana;
+  font-size: 20px;
+  border-bottom: 1px solid #dee4ec;
+  border-top: 1px solid #dee4ec;
+  border-left: 1px solid #dee4ec;
+}
